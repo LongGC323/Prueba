@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrar Producto</title>
+  <link rel="stylesheet" href="../css/registro_producto.css">
+</head>
+<body>
+  <h2>Registrar Nuevo Producto</h2>
+  <form id="formProducto">
+    <div class="input-group">
+      <input type="text" name="nombre_producto" placeholder="Nombre del producto" required class="nombre-producto">
+    </div>
+
+    <div class="input-group input-group-flex">
+      <select name="categoria" required>
+        <option value="">Seleccionar categoría</option>
+        <!-- Opciones de categoría se cargarán desde la BD -->
+      </select>
+      <select name="marca" required>
+        <option value="">Seleccionar marca</option>
+        <!-- Opciones de marca se cargarán desde la BD -->
+      </select>
+    </div>
+
+    <div class="input-group input-group-flex">
+      <select name="unidad" required>
+        <option value="">Seleccionar unidad</option>
+        <!-- Opciones de unidad se cargarán desde la BD -->
+      </select>
+      <input type="number" name="stock_actual" placeholder="Stock actual" required>
+    </div>
+
+    <div class="input-group input-group-flex">
+      <input type="number" name="precio_compra" placeholder="Precio de compra" step="0.01" required>
+      <input type="number" name="precio_venta" placeholder="Precio de venta" step="0.01" required>
+    </div>
+
+    <button type="submit">Registrar</button>
+  </form>
+
+  <a href="menu_productos.html" class="btn-regresar">Regresar</a>
+
+  <div id="mensaje"></div>
+
+  <script src="../js/producto.js"></script>
+</body>
+</html>

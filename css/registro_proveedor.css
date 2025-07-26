@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column; /* Asegura que todo en el body esté en columna */
+}
+
+form {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+  display: block; /* Asegura que el formulario tenga el comportamiento de bloque */
+  margin-top: 20px; /* Espacio superior */
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+  display: block; /* Asegura que el título ocupe todo el ancho */
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#mensaje {
+  margin-top: 15px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-regresar {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #6c757d;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.btn-regresar:hover {
+  background-color: #5a6268;
+}

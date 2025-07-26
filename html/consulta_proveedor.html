@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta de Proveedores</title>
+  <link rel="stylesheet" href="../css/consulta_proveedor.css">
+</head>
+<body>
+  <h2>Consulta de Proveedores</h2>
+  <div class="busqueda-container">
+    <input type="text" id="busqueda" placeholder="Buscar por nombre o correo...">
+    <button id="btnBuscar">Buscar</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Teléfono</th>
+        <th>Correo</th>
+        <th>Acciones</th> <!-- Nueva columna para las acciones -->
+      </tr>
+    </thead>
+    <tbody id="tabla-proveedores">
+      <!-- Resultados aquí -->
+    </tbody>
+  </table>
+  <button id="btnRegresar" onclick="window.location.href='menu_proveedor.html'">Regresar</button>
+
+  <script src="../js/consulta_proveedor.js"></script>
+</body>
+</html>

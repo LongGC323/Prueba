@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta de Productos</title>
+  <link rel="stylesheet" href="../css/consulta_producto.css">
+</head>
+<body>
+  <h2>Consulta de Productos</h2>
+  <div class="busqueda-container">
+    <input type="text" id="busqueda" placeholder="Buscar por nombre...">
+    <button id="btnBuscar">Buscar</button>
+  </div>
+ <table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Categoría</th>
+      <th>Marca</th>
+      <th>Unidad</th>
+      <th>Precio Compra</th>
+      <th>Precio Venta</th>
+      <th>Stock</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody id="tabla-productos">
+    <!-- Resultados aquí -->
+  </tbody>
+</table>
+  <button id="btnRegresar" onclick="window.location.href='menu_productos.html'">Regresar</button>
+
+  <script src="../js/consulta_producto.js"></script>
+</body>
+</html>

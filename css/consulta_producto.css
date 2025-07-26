@@ -1,0 +1,109 @@
+/* Estilos similares a los de proveedores */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+#btnRegresar {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btnRegresar:hover {
+  background-color: #b52a37;
+}
+
+.busqueda-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.busqueda-container input {
+  flex: 1;
+}
+
+.busqueda-container button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.busqueda-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el botón Modificar */
+.modificar {
+  padding: 8px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.modificar:hover {
+  background-color: #218838;
+  transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+}
+
+.modificar:active {
+  background-color: #1e7e34;
+  transform: scale(1); /* Deja de hacer zoom al hacer clic */
+}
+
+.modificar:focus {
+  outline: none;
+}
